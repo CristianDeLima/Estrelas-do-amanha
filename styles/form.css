@@ -10,7 +10,7 @@ legend {
   color: var(--text-primary);
 }
 
-label {
+label, .textarea-wrapper p, .file-wrapper p{
   display: flex;
   font: 400 1rem/150% var(--font);
   color: var(--text-primary);

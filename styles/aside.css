@@ -1,0 +1,31 @@
+aside {
+  height: 100vh;
+  background-color: var(--surface-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &>.aside-box {
+    margin: 4rem;
+    .aside-informations {
+
+      &>h1 {
+        font: var(--heading1);
+        color: var(--text-primary);
+        font-size: 2.5rem;
+        margin-top: .5rem;
+        
+        &>span {
+          color: var(--text-highlight);
+        }
+      }
+
+      &>p {
+        font: 400 1rem/150% var(--font);
+        color: var(--text-secondary);
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

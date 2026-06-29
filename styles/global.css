@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -57,4 +58,8 @@ h1 {
 p {
   font: 400 1rem/150% var(--font);
   color: var(--text-secondary);
+}
+
+fieldset {
+  all: unset;
 }

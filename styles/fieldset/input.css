@@ -1,0 +1,18 @@
+input, select, textarea {
+  appearance: none;
+  border: 1px solid var(--stroke-default);
+  border-radius: .5rem;
+
+  padding: .75rem 1rem;
+
+  font: 400 1rem/150% var(--font);
+  color: var(--text-primary);
+  width: 100%;
+
+  &:focus,
+  &:focus-within {
+    outline: .25rem solid var(--surface-secondary);
+    border: .125rem solid var(--stroke-highlight);
+  }
+  
+}

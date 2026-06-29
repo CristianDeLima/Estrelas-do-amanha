@@ -40,3 +40,17 @@ body {
   display: grid;
   grid-template-columns: 51.25% 48.75%;
 }
+
+main {
+  margin: 4rem;
+}
+
+h1 {
+  font: var(--heading1);
+  color: var(--text-primary);
+}
+
+p {
+  font: 400 1rem/150% var(--font);
+  color: var(--text-secondary);
+}

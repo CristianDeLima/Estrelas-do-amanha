@@ -1,0 +1,56 @@
+.shift, .sports {
+  &>p {
+    font: 400 .875rem/140% var(--font);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.radio-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: 1rem;
+
+  &>.radio-inner {
+    position: relative;
+    height: 8rem;
+
+    input[type="radio"] {
+      outline: none;
+      position: absolute;
+      inset: 0;
+    }
+
+    &:has(:hover) .radio-image{
+      background-image: url(../../assets/icons/circle-hover.svg);
+    }
+
+    &:has(:checked) .radio-image{
+      background-image: url(../../assets/icons/checkmark-circle.svg);
+    }
+    
+    &>.radio-image {
+      position: absolute;
+      background-image: url(../../assets/icons/circle.svg);
+      width: 1.5rem;
+      height: 1.5rem;
+      top: .5rem;
+      left: .5rem;
+    }
+    
+    &>.radio-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: .5rem;
+    }
+  }
+}
+
+
+
+
+
+

@@ -96,3 +96,18 @@ textarea {
     }
   }
 }
+
+.addres {
+  display: flex;
+  flex-direction: column;
+
+  &>legend {
+    margin-top: 3rem;
+  }
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 62.87% auto;
+  gap: 1.25rem;
+}

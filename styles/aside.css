@@ -6,7 +6,7 @@ aside {
   align-items: center;
   
   &>.aside-box {
-    margin: 4rem;
+    padding: 4rem;
     .aside-informations {
 
       &>h1 {

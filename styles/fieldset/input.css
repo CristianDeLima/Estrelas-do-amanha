@@ -1,6 +1,8 @@
 input, select, textarea {
   appearance: none;
-  border: 1px solid var(--stroke-default);
+
+  outline: 1px solid var(--stroke-default);
+  border: 2px solid transparent;
   border-radius: .5rem;
 
   padding: .75rem 1rem;
@@ -16,7 +18,7 @@ input, select, textarea {
   &:focus,
   &:focus-within {
     outline: .25rem solid var(--surface-secondary);
-    border: .125rem solid var(--stroke-highlight);
+    border-color: var(--stroke-highlight);
   }
 }
 
